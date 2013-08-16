@@ -1,7 +1,3 @@
-/**
- * Created by megadozz on 23.07.13.
- */
-
 function findFactorials(min,max) {
     var result = [];
     if (min < max) {
