@@ -1,3 +1,10 @@
+/**
+ * выводит список всех чисел в указанном диапозоне, которые равны сумме факториалов своих цифр
+ * @name findFactorials
+ * @param {Number} min начало диапозона
+ * @param {Number} max конец диапозона
+ * @example findFactorials(100,50000)   // [145,40585]
+ */
 function findFactorials(min,max) {
     var result = [];
     if (min < max) {
@@ -19,6 +26,11 @@ function findFactorials(min,max) {
     return result;
 }
 
+/**
+ * Возвращает факториал числа n
+ * @name factorial
+ * @example factorial(5) //120
+ */
 function factorial(n) {
     return (n>1) ? n * factorial(n-1) : 1;
 }

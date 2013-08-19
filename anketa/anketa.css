@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+div,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-size: .9rem;
+    color: #333;
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    margin: 30px 0;
+}
+
+h1 {
+    font-size: 22px;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 21px;
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 19px;
+    font-size: 1.3rem;
+}
+
+
+ol,
+ul {
+    margin: 0 0 10px 30px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+input[type=text] {
+    height: 1.5rem;
+}
+
+textarea {
+    min-height: 70px;
+}
+
+input[type=text],
+textarea {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08) inset;
+    border: 1px solid #CCC;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto 20px;
+}
+
+.cut_block {
+    border-bottom: 1px solid #ccc;
+}
+
+.cutter {
+    border-bottom: 1px dotted;
+    /*color: #000;*/
+    cursor: pointer;
+    display: inline-block;
+    font-size: .9rem;
+    font-weight: bold;
+    margin: 7px 0;
+}
+
+.cutted .cutter {
+    color: #333;
+}
+
+.cutter .less,
+.cutted .cutter .more {
+    display: none;
+}
+
+.cutter .more,
+.cutted .cutter .less {
+    display: inline;
+}
+
+.answer {
+    width: 700px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.answer_text {
+    width: 100%;
+    text-align: justify;
+    resize: vertical;
+}
+
+.q_label {
+    vertical-align: top;
+    width: 100px;
+    display: block;
+    float: left;
+    font-style: italic;
+    margin: 7px 0;
+}
+
+.q_radio_label {
+    display: block;
+    margin: 5px;
+}
+
+.q_description {
+    font-size: .9rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about_label {
+    font-size: .9rem;
+    width: 275px;
+    display: inline-block;
+    border-bottom: 1px dotted #ccc;
+}
+
+.ext_info {
+    /*height: 70px;*/
+    vertical-align: top;
+}
+
+.about_line {
+    margin: 5px 20px 10px;
+}
+
+.about_input,
+.about_textarea {
+    width: 480px;
+}
+
+.agreement {
+    margin: 30px 20px 20px;
+    text-align: justify;
+}
+
+.agreement_text {
+    font-weight: bold;
+}
+
+.buttons {
+    text-align: center;
+    margin: 20px 0;
+    background: #f8f8f8;
+}
+
+.button {
+    margin: 15px;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-size: .9rem;
+
+    background: -webkit-linear-gradient(top, #f4f4f4, #d8d8d8) #ddd;
+    background:    -moz-linear-gradient(top, #eee, #ccc) #ddd;
+    background:         linear-gradient(top, #eee, #ccc) #ddd;
+    border: 1px solid;
+    border-color: #ccc #aaa #aaa #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px hsla(0,0%,100%, 0.5) inset, 1px 1px 2px hsla(0,0%,0%, 0.05);
+    color: #333;
+    cursor: pointer;
+    min-width: 100px;
+    text-align: center;
+    text-shadow: hsla(0,0%,100%, 0.4) 1px 1px 0;
+}
+
+.button:hover {
+    background: -webkit-linear-gradient(top, #fafafa, #ddd) #f0f0f0;
+    background:    -moz-linear-gradient(top, #f5f5f5, #d2d2d2) #f0f0f0;
+    background:         linear-gradient(top, #f5f5f5, #d2d2d2) #f0f0f0;
+    color: #444;
+}
+
+.button:active {
+    background: -webkit-linear-gradient(top, #f0f0f0, #d0d0d0) #ccc;
+    background:    -moz-linear-gradient(top, #eaeaea, #c8c8c8) #ccc;
+    background:         linear-gradient(top, #eaeaea, #c8c8c8) #ccc;
+    color: #000;
+    position: relative;
+    top: 1px;
+}
